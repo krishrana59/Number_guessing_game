@@ -1,1 +1,7 @@
 # Number_guessing_game
+The objective of this project is to develop an interactive Number Guessing Game using the C programming language, which provides a simple and fun way for users to engage with basic programming concepts. The game aims to enhance logical thinking and foster user engagement by providing real-time feedback on each guess, guiding the user towards the correct answer.
+In this game, the computer will randomly select a number within a specified range (e.g., 1 to 100), and the player will attempt to guess this number. After each guess, the program will compare the user's input to the target number and display a hint indicating whether the guess was too high, too low, or correct. The game will continue in a loop, allowing the player to make multiple attempts until they successfully guess the correct number.
+Key components of the game include:
+1.	Random Number Generation: Utilizing C’s built-in functions to generate a random number, making the game unpredictable and ensuring each round is unique.
+2.	User Input and Feedback Mechanism: Prompting the user for input and using conditional statements to check the accuracy of each guess. Depending on the guess, feedback will be provided to help the user adjust their approach and arrive at the correct answer.
+3.	Control Flow with Loops and Conditionals: Implementing a loop structure that allows repeated guessing attempts until the correct answer is identified. The control flow will manage how the program responds to each input and guide the player through multiple guesses until they succeed.
